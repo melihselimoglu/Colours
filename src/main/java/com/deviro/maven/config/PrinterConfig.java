@@ -1,3 +1,5 @@
+package com.deviro.maven.config;
+
 import com.deviro.maven.services.BluePrinter;
 import com.deviro.maven.services.ColourPrinter;
 import com.deviro.maven.services.GreenPrinter;
