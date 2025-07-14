@@ -1,6 +1,6 @@
-public package main.java.com.deviro.maven.services.impl;
+package main.java.com.deviro.maven.services.impl;
 
-class SpanishBluePrinter implements BluePrinter {
+public class SpanishBluePrinter implements BluePrinter {
 
     @Override
     public String print() {

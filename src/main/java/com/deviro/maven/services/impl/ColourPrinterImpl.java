@@ -5,6 +5,7 @@ import com.deviro.maven.services.ColourPrinter;
 import com.deviro.maven.services.GreenPrinter;
 import com.deviro.maven.services.RedPrinter;
 
+@Component
 public class ColourPrinterImpl implements ColourPrinter {
   private RedPrinter redPrinter;
   private BluePrinter bluePrinter;
