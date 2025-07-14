@@ -8,6 +8,9 @@ import com.deviro.maven.services.impl.ColourPrinterImpl;
 import com.deviro.maven.services.impl.EnglishBluePrinter;
 import com.deviro.maven.services.impl.EnglishGreenPrinter;
 import com.deviro.maven.services.impl.EnglishRedPrinter;
+import com.deviro.maven.services.impl.SpanishBluePrinter;
+import com.deviro.maven.services.impl.SpanishGreenPrinter;
+import com.deviro.maven.services.impl.SpanishRedPrinter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -16,17 +19,17 @@ public class PrinterConfig {
 
   @Bean
   public BluePrinter bluePrinter() {
-    return new EnglishBluePrinter();
+    return new SpanishBluePrinter();
   }
 
   @Bean
   public RedPrinter redPrinter() {
-    return new EnglishRedPrinter();
+    return new SpanishRedPrinter();
   }
 
   @Bean
   public GreenPrinter greenPrinter() {
-    return new EnglishGreenPrinter();
+    return new SpanishGreenPrinter();
   }
 
   @Bean
