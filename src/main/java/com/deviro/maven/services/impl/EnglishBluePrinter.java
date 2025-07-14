@@ -1,7 +1,8 @@
 package com.deviro.maven.services.impl;
 
-import com.deviro.maven.services.BluePrinter;
-import org.springframework.stereotype.Component;  
+import org.springframework.stereotype.Component;
+
+import com.deviro.maven.services.BluePrinter;  
 
 @Component
 public class EnglishBluePrinter implements BluePrinter {

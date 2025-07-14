@@ -1,3 +1,5 @@
+import com.deviro.maven.services.RedPrinter;
+
 public class SpanishRedPrinter implements RedPrinter {
 
   @Override
