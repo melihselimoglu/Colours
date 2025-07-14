@@ -1,6 +1,5 @@
 package com.deviro.maven.services.impl;
 
-import org.springframework.stereotype.Component;
 
 import com.deviro.maven.services.BluePrinter;  
 
